@@ -18,7 +18,7 @@ let computerStatus = 'green';
 //    launchReady = false;
 // }
 
-if (crewStatus && computerStatus === 'green'){
+if (crewStatus && computerStatus === 'green') {
    console.log('Crew & computer cleared.');
    launchReady = true;
 } else {
